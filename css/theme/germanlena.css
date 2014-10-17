@@ -4,7 +4,7 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 4px #000000;
 }
 .reveal {
   font-family: 'Roboto Condensed',sans-serif;
@@ -30,8 +30,9 @@ body {
   margin: 0 0 20px 0;
   color: #eeeeee;
   font-family: 'Roboto Condensed',sans-serif;
-  line-height: 0.9em;
-  letter-spacing: 0.02em; }
+  line-height: 1.3em;
+  letter-spacing: 0.02em; 
+}
 
 
 .reveal .main h1 {
@@ -61,6 +62,9 @@ body {
 
 p.big {
   font-size: 2em;
+}
+p {
+  line-height: 2em;
 }
 /*********************************************
  * LINKS
